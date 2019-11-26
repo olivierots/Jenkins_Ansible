@@ -1,6 +1,6 @@
 # Jenkins_Ansible
-This is a practical project for an application which hold users info such as age, firstname & last name than can be accessed via webpage , using a jenkins Job, we can pass a parameters that will query the db and ask for example, how many users are 20 years old  
-Ansible will then build a table using HTML, PHP & CSS to display the content of the database in a table
+This is a practical project for an application which hold users info such as age, firstname & last name than can be accessed via a webpage , using a jenkins Job, we can pass parameters that will query the db and ask e.g how many users are 20 years old of age.  
+Ansible will then build a table using HTML, PHP & CSS to display the content of the database in a table.
 To do this we need Jenkins, Ansible, we need to create a db on MySQL server, build a web server in a docker container, create an HTML table with css & php etc.  
 At the end we will have a single Jenkins job that allows you to print an HTML table with css that does a query to a db using PHP based on the end user input and ansible will do the magic pulling in the template to the webserver and the info will be displayed on your browser. 
 
@@ -11,7 +11,7 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 *  created the ansible inventory (hosts file) & tested the connection with the remote host 
 *  Created the ansible playbook
 *  Integrated the ansible plugin on jenkins
-*  Created a Jenkins job with the relevant parameters that willl invoke the ansible playbook
+*  Created a Jenkins job with the relevant parameters that will invoke the ansible playbook
 *  Created the DB that will hold all the users details
 *  Created a Bash Script to feed the DB & tested the script
 *  Built a Nginx Web Server using docker-compose (called web) which is going to host the site where the html table is going to be 
