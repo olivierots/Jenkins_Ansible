@@ -4,7 +4,7 @@ Ansible will then build a table using HTML, PHP & CSS to display the content of 
 To do this we need Jenkins, Ansible, we need to create a db on MySQL server, build a web server in a docker container, create an HTML table with css & php etc.  
 At the end we will have a single Jenkins job that allows you to print an HTML table with css that does a query to a db using PHP based on the end user input and ansible will do the magic pulling in the template to the webserver and the info will be displayed on your browser. 
 
-************************ step by step ************************
+################# step by step ####################
 
 *  Installed ansible and ran it in a docker container
 *  set up / configure ssh keys to connect to ansible web container
