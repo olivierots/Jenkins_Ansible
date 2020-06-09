@@ -24,7 +24,7 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
    can pick these options easily.
 
 
-## useful commands i've used throughout my learning experience ##
+## some useful docker-compose commands i've used throughout my learning experience ##
 * docker-compose up -d ==> start the docker container in the background
 * docker info | grep -i root ==> where docker is saving its files
 * docker logs -f <container> ==> check your container's logs 
@@ -34,7 +34,7 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 * docker-compose up -d  ==> the service will be re-created using files in the volume
 * docker exec -ti <container> bash ==> ssh into the container/work inside the container
 * docker cp script.sh <container>:/path/script.sh ==> copy the script file from your machine to container & specify the location
-* docker-compose build ==> Under the project directory,  run docker-compose build to build (rebuild) the service.
+* docker-compose build ==> Under the project directory, run docker-compose build to build (rebuild) the service.
 * docker images ==> list your docker images
 * docker cp remote-key <container>:/tmp/remote-key ==> copy keys to the container to allow passwordless ssh
 * ssh -i /tmp/remote-key remote_user@hostname> ==> ssh into the container 
@@ -45,9 +45,9 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 * docker-compose stop
 * docker-compose pause <service> ==> pauses running containers of a service. They can be unpaused with docker-compose unpause
 * docker-compose unpause
-* docker-compose up: see all of the docker containers currently running
-* docker-compose up: start the docker container
-* docker-compose down: remove all docker containers in the repository
+* docker-compose up ==> see all of the docker containers currently running
+* docker-compose up ==> start the docker container
+* docker-compose down ==> remove all docker containers in the repository
 * docker kill :container_id ==> remove a specific docker container
 * docker-compose config ==> verify that the Compose file format is correct. If it is correct, the configuration is displayed. If the 
   format is incorrect, the cause of the error is displayed.
