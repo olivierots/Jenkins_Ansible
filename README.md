@@ -25,6 +25,7 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 
 ## demo ##
 jenkins@5b322c26e623:~/ansible$ ansible -m ping -i hosts web1
+
 web1 | SUCCESS => {
     "ansible_facts": {
         "discovered_interpreter_python": "/usr/bin/python"
