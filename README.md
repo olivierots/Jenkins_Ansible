@@ -26,5 +26,16 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 
 ## DSL job ##
 ```
-in the end, i re-created the entire workflow using code (Jenkins DSL) to invoke the playbook defining the inventory path, ansible playbook path, age as paprameters etc. (see ansible-dsl-job file)
+in the end, i re-created the entire workflow using code (Jenkins DSL) to invoke the playbook defining the inventory path, ansible playbook path, age as paprameters etc. (see ansible-users-db-dsl file)
+```
+## test result ##
+```
+Processing DSL script jobs
+Added items:
+    GeneratedJob{name='git-job-test-hooks'}
+Existing items:
+    GeneratedJob{name='ansible-users-db-dsl'}
+    GeneratedJob{name='job_dsl_example'}
+    GeneratedJob{name='maven_dsl'}
+Finished: SUCCESS
 ```
