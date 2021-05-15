@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 FROM centos
 RUN yum -y install openssh-server
 
@@ -24,18 +23,3 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 
 CMD /usr/sbin/sshd -D
  
-=======
-FROM jenkins/jenkins
-
-ENV TZ Europe/London
-
-USER root  
-
-RUN  curl -O https://bootstrap.pypa.io/get-pip.py && \
-     python get-pip.py && \
-     pip install ansible --upgrade
-
-USER jenkins
-
-
->>>>>>> 7f2e09dbd7b5d0709c3772605d83bd4355e7a9fb
