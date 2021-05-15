@@ -1,5 +1,5 @@
 =======
-## Jenkins_Ansible_docker_nginx_php_css_html project 2019 ##
+## Jenkins_Ansible_docker_nginx_php_css_html project 2019
 ```
 This is a practical project for an application which hold users info such as age, firstname & last name than
 can be accessed via a webpage , using a jenkins Job, we can pass parameters that will query the db and ask
@@ -12,7 +12,7 @@ At the end we will have a single Jenkins job that allows you to print an HTML ta
 to a db based on the end user input and ansible will do the magic pulling in the template to the webserver and
 the info will be displayed on your browser. 
 ```
-## step by step ##
+## Implementation 
 ```
 *  Installed ansible and ran it in a docker container
 *  set up / configure ssh keys to connect to ansible web container
@@ -33,12 +33,12 @@ the info will be displayed on your browser.
    first name etc. so that end users can pick these options easily.
 ```
 
-## DSL job ##
+## DSL job 
 ```
 in the end, i re-created the entire workflow using code (Jenkins DSL) to invoke the playbook defining
 the inventory path, ansible playbook path, age as paprameters etc. (see ansible-users-db-dsl file)
 ```
-## test result ##
+## test result 
 ```
 Processing DSL script jobs
 Added items:
