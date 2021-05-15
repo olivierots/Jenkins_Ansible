@@ -9,8 +9,8 @@ I created a db using MySQL, built a web server in a docker container, created an
 (this was taken from taken from a developer i know), however modifying it, testing it gave me great exposure 
 to html coding etc.
 At the end we will have a single Jenkins job that allows you to print an HTML table with css that does a query
-to a db based on the end user input and ansible will do the magic pulling in the template to the webserver and
-the info will be displayed on your browser. 
+to a db based on the end user input and ansible will do all the magic by pulling in the template to the webserver
+and the info will be displayed on your browser. 
 ```
 ## Implementation 
 ```
